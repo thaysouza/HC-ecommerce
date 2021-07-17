@@ -1,4 +1,4 @@
-<h1>Desafio #1: Ecommerce 💻📚</h1>
+<h1>Desafio #1: Ecommerce 💻</h1>
 
 
 <img src="img/img1-index.PNG">
@@ -6,7 +6,7 @@
 
 ## Sobre
 
-> Este projeto foi desenvolvido concluir o desafio do **Hiring Coders**, para criar uma landing page de um e-commerce.
+> Este projeto foi desenvolvido para concluir o desafio do **Hiring Coders**, com o objetivo de criar uma landing page de um e-commerce.
 
 ### Projeto em andamento 🚀👩‍💻
 
