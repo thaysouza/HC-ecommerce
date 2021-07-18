@@ -14,7 +14,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/index.css">
 
-
     <title>ChocoBurguer</title>
 </head>
 
@@ -24,7 +23,7 @@
         <header>
             <nav class="navbar navbar-expand-sm navbar-light ">
                 <div class="container">
-                    <div class="  d-flex  align-items-center justify-content-center">
+                    <div class="d-flex align-items-center justify-content-center">
                         <a href="#" class="navbar-brand">
                             <img src="img/logo2.png" width="40">
 
@@ -65,24 +64,29 @@
         <section class="info-index">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-5 d-flex">
+                    <div class="col-md-5  d-flex">
                         <div class="align-self-center text-center">
                             <h1 class="text-free text-warning">FREE</h1>
                             <h1 class="text-burguer text-white">BURGER</h1>
 
                             <p class="info-email">Informe seu E-mail e garanta já o seu !</p>
 
-                            <form class="mt-4 mb-4">
-                                <div class="input-group input-group-lg ">
-                                    <input type="text" placeholder="Seu e-mail" class="form-control">
-                                    <div class="input-group-append">
-                                        <button type="button" class="btn btn-outline-warning"> Get a Burger
+                            <div id="content" style="color: red;">
+                                <form class="mt-4 mb-4" id="form">
+                                    <div class="input-group input-group-lg ">
+                                        <input type="text" placeholder="Seu e-mail" class="form-control" id="email">
+                                        <div class="input-group-append">
+                                            <button type="submit" class="btn btn-outline-warning"> Get a Burger
 
-                                        </button>
+                                            </button>
+                                        </div>
+
                                     </div>
+                                </form>
 
-                                </div>
-                            </form>
+                                <script src="js/index.js"></script>
+
+                            </div>
 
                             <div style="height:15vh; font-size: 10px; "
                                 class="d-flex  align-items-end justify-content-center">
@@ -91,19 +95,11 @@
                                 </p>
                             </div>
 
-                            <!--<p>Disponível para</p>
-                            <a href="" class="btn btn-outline-light">
-                                <i class="fab fa-android fa-lg"></i>
-                            </a>
-
-                            <a href="" class="btn btn-outline-light">
-                                <i class="fab fa-apple fa-lg"></i>
-                            </a>-->
                         </div>
                     </div>
                     <div style="height: 100vh;" class="col-md-7 area-img-burguer d-none d-md-block m-0 p-0 text-center">
 
-                        <div style="height: 100vh;" class="d-flex  align-items-center justify-content-center">
+                        <div class="d-flex  align-items-center justify-content-center">
                             <div>
 
 
@@ -120,125 +116,13 @@
             </div>
         </section>
 
+        <footer style="background-color: black; color: white; padding: 10px; text-align: center; ">
+            <p>Todos os direitos reservados - Tayane Souza</p>
+        </footer>
+
+
+
     </main>
-    <!-----
-    <section class="caixa">
-        <div class="container">
-            <div class="row">
-
-                <div class="col-md-6 d-flex">
-                    <div class="align-self-center">
-                        <h2>Saiba para onde vai o seu dinheiro</h2>
-                        <p>
-                            Com o Finans, você categoriza todos os seus lançamentos.
-                            com gráficos simples, você sabe de onde vem e para onde vai
-                            o seu dinheiro.
-                        </p>
-                        <a href="" class="btn btn-primary">Veja mais</a>
-                    </div>
-                </div>
-
-                <div class="col-md-6">
-                    <img src="img/saiba.png" class="img-fluid">
-                </div>
-
-            </div>
-
-        </div>
-    </section>
-
-
-
-    <section class="caixa">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <img src="img/juros.png" class="img-fluid">
-                </div>
-                <div class="col-md-6 d-flex">
-                    <div class="align-self-center">
-                        <h2>Saiba para onde vai o seu dinheiro</h2>
-                        <p>
-                            Com o Finans, você categoriza todos os seus lançamentos.
-                            com gráficos simples, você sabe de onde vem e para onde vai
-                            o seu dinheiro.
-                        </p>
-                        <a href="" class="btn btn-primary">Veja mais</a>
-                    </div>
-                </div>
-
-
-            </div>
-
-        </div>
-    </section>
-
-
-    <section class="caixa">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <img src="img/facil.png" class="img-fluid">
-                    <h4>Fácil de usar</h4>
-                    <p>
-                        O Finans vai além do básico e permite que você faça controles
-                        incríveis, essenciais para suas finanças. Simples como tem
-                        que ser!
-                    </p>
-                </div>
-
-                <div class="col-md-4">
-                    <img src="img/economize.png" class="img-fluid" alt="">
-                    <h4>Economize seu tempo</h4>
-                    <p>
-                        Tempo é dinheiro! Em segundos, você tem tudo sob controle e
-                        aproveite seu tempo como o que realmente importa pra você!
-                    </p>
-                </div>
-
-                <div class="col-md-4">
-
-                    <img src="img/suporte.png" class="img-fluid" alt="">
-                    <h4>Economize seu tempo</h4>
-                    <p>
-                        Tempo é dinheiro! Em segundos, você tem tudo sob controle e
-                        aproveite seu tempo como o que realmente importa pra você!
-                    </p>
-
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <footer class="mt-4 mb-4">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8">
-                    <p>
-                        <a href="">Home</a>
-                        <a href="">Recursos</a>
-                        <a href="">Benefícios</a>
-                        <a href="">Preços</a>
-                    </p>
-
-                </div>
-                <div class="col-m-8 d-flex justify-content-end">
-                    <a href="" class="text-secondary mx-4">
-                        <i class="fab fa-linkedin fa-lg"></i>
-                    </a>
-                    <a href="" class="text-secondary mx-4">
-                        <i class="fab fa-facebook fa-lg"></i>
-                    </a>
-                    <a href="" class="text-secondary mx-4">
-                        <i class="fab fa-instagram fa-lg"></i>
-                    </a>
-
-                </div>
-
-            </div>
-        </div>
-    </footer>-->
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"

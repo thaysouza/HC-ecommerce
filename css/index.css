@@ -8,57 +8,51 @@
     border-color: #cccccc;
     outline: 0;
     -webkit-box-shadow: none;
-            box-shadow: none;
-  }
-
-
-main header .text-nav{
-    font-size: 22px;
-    font-family:'Rock Salt', cursive;
+    box-shadow: none;
 }
 
-main header ul li a{
+main header .text-nav {
+    font-size: 22px;
+    font-family: 'Rock Salt', cursive;
+}
+
+main header ul li a {
     font-size: 18px;
     font-weight: bold;
-    
 }
 
-.area-index{
-   background-color:#3A3535 ; 
+.area-index {
+    background-color: #3A3535;
 }
 
-.area-index .info-index{
+.area-index .info-index {
     height: 100vh;
-    
 }
 
-.info-index h1{
+.info-index h1 {
     font-size: 100px;
 }
 
-.info-index .info-email{
+.info-index .info-email {
     font-size: 20px;
     font-weight: bold;
     color: white;
     margin-top: 35px;
 }
 
- .area-img-burguer{
+.area-img-burguer {
     background: url(../img/dois-um.png) no-repeat;
     background-position: top center;
 }
 
-.img-burguer{
+.img-burguer {
     transform: rotate(-8deg);
     width: 500px;
-    margin-top:80px;
+    margin-top: 80px;
     margin-left: 70px;
-  
-
- 
 }
 
-.sombra{
+.sombra {
     margin-top: -60px;
     margin-left: 100px;
 }

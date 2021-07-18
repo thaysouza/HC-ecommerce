@@ -24,8 +24,7 @@
 * Visual Studio Code<br>
 * Html<br>
 * CSS<br>
-* Bootstrap<br>
-* JavaScript<br>
+* JavaScript
 
 
 
