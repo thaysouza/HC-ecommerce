@@ -1,0 +1,45 @@
+.area-principal-combos {
+    margin-top: -5vh;
+    height: auto;
+    background-color: #ffc107;
+}
+
+.classH1 {
+    font-size: 40px;
+    text-align: center;
+    padding: 5vh 0;
+}
+
+.area {
+    height: 50vh;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+}
+
+.area .ativo {
+    background-color: red;
+}
+
+.flex img {
+    width: 200px;
+    display: block;
+    border-radius: 100%;
+    margin-bottom: 20px;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80vw;
+    margin: 0 auto;
+}
+
+.flex>div {
+    flex: 1 1 250px;
+    margin: 20px 30px;
+}
