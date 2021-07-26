@@ -1,16 +1,11 @@
+
 import React from "react";
 import "../../estilos/combos.css";
 import combo1 from "../../img/combo1.png";
 
 
+
 const Combos = () => {
-
-  function mudarContainer() {
-
-    const areaCombos = document.getElementById('area');
-    areaCombos.classList.toggle('ativo');
-
-  }
 
 
   return (
@@ -20,70 +15,81 @@ const Combos = () => {
 
         <div className="flex">
 
-          <div id="area" className="area" onMouseOver={mudarContainer}>
+
+          <div id="area" className="area">
             <div>
               <img
                 src={combo1}
                 alt="Combo"
               />
-              <p>Combo Bazinga</p>
-              <p>159,99</p>
-              <h3>112,99</h3>
+              <p className="text-combo">Box burguer</p>
+              <p className="text-value"><s>159,99</s></p>
+              <h2>109,99</h2>
             </div>
           </div>
 
-          <div className="area">
+          <div id="area" className="area">
             <div>
               <img
                 src={combo1}
                 alt="Combo"
               />
-              <p>Combo Bazinga</p>
-              <h3>112,99</h3>
+              <p className="text-combo">Box burguer</p>
+              <p className="text-value"><s>159,99</s></p>
+              <h2>109,99</h2>
             </div>
           </div>
 
-          <div className="area">
+          <div id="area" className="area">
             <div>
               <img
                 src={combo1}
                 alt="Combo"
               />
-              <p>Combo Bazinga</p>
-              <h3>112,99</h3>
+              <p className="text-combo">Box burguer</p>
+              <p className="text-value"><s>159,99</s></p>
+              <h2>109,99</h2>
             </div>
           </div>
 
-          <div className="area">
+
+
+          <div id="area" className="area">
             <div>
               <img
                 src={combo1}
                 alt="Combo"
               />
-              <p>Combo Bazinga</p>
-              <h3>112,99</h3>
+              <p className="text-combo">Box burguer</p>
+              <p className="text-value"><s>159,99</s></p>
+              <h2>109,99</h2>
             </div>
           </div>
 
-          <div className="area">
+
+
+          <div id="area" className="area">
             <div>
               <img
                 src={combo1}
                 alt="Combo"
               />
-              <p>Combo Bazinga</p>
-              <h3>112,99</h3>
+              <p className="text-combo">Box burguer</p>
+              <p className="text-value"><s>159,99</s></p>
+              <h2>109,99</h2>
             </div>
           </div>
 
-          <div className="area">
+
+          <div id="area" className="area">
             <div>
               <img
                 src={combo1}
                 alt="Combo"
               />
-              <p>Combo Bazinga</p>
-              <h3>112,99</h3>
+              <p className="text-combo">Box burguer</p>
+              <p className="text-value"><s>159,99</s></p>
+              <h2>109,99</h2>
             </div>
           </div>
 

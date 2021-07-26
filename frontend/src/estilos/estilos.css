@@ -57,6 +57,17 @@ body {
   color: #ffc107;
 }
 
+#menu .link-button {
+  background-color: #ffc107;
+  padding: 2px 10px;
+  border-radius: 5px;
+  color: #3A3535;
+}
+
+#menu .link-button:hover {
+  background-color: #3A3535;
+}
+
 #btn-mobile {
   display: none;
 }

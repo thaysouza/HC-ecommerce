@@ -1,11 +1,17 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React, { useState } from "react";
 import "../../estilos/estilos.css";
 import imgBurger from "../../img/burguer-home.png";
 import imgSombra from "../../img/sombra.png";
 
 
 const Home = () => {
+
+  const [email, setEmail] = useState()
+
+  const armazenar = (chave, valor) => {
+    localStorage.setItem(chave, valor)
+    alert('Dados enviados com sucesso!')
+  }
 
   return (
     <>
@@ -23,8 +29,8 @@ const Home = () => {
             <div className="content">
               <form id="form">
                 <div className="input-group">
-                  <input type="text" placeholder="Seu e-mail" id="email" />
-                  <button className="button-info">Get a Burger</button>
+                  <input value={email} onChange={(e) => setEmail(e.target.value)} type="text" placeholder="Seu e-mail" id="email" />
+                  <button onClick={() => armazenar('ls_email', email)} className="button-info">Get a Burger</button>
                 </div>
               </form>
             </div>

@@ -48,6 +48,7 @@ const Cabecalho = () => {
             <li><Link className="link-menu" to="/">Combos</Link></li>
             <li><Link className="link-menu" to="/">Restaurantes</Link></li>
             <li><Link className="link-menu" to="/">Contato</Link></li>
+            <li><Link className="link-menu link-button" to="/">Cadastro</Link></li>
           </ul>
         </nav>
       </header>

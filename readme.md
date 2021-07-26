@@ -24,7 +24,36 @@
 * Visual Studio Code<br>
 * Html<br>
 * CSS<br>
+* React<br>
 * JavaScript
+
+
+## :white_check_mark: Requisitos
+
+<p>Antes de executar :checkered_flag:, você precisar ter o <a href="https://git-scm.com">[Git]</a> e o <a href="https://nodejs.org/pt-br/download/">[Node]</a> instalados.</p>
+
+## :checkered_flag: Executando
+
+```bash
+
+#  Clone este projeto
+$ git clone https://github.com/thaysouza/FSGames
+
+# Entre nas pasta frontend
+$ cd frontend
+$ Execute o comando 'code .' e o projeto sera aberto no Visual Studio Code
+
+# Instale as dependências
+$ npm i
+
+# Inicialize
+$ npm start
+
+# Uma página será aberta em http://localhost:3000
+
+
+```
+
 
 
 
