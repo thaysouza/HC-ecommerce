@@ -73,6 +73,8 @@ const Cadastro = () => {
                                     <p>Email: {item.email}</p>
                                     <p>Telefone: {item.fone}</p>
 
+
+
                                     <span>
                                         <button className="button-retorno" onClick={() => removePost(item.email)}>X</button>
                                     </span>
