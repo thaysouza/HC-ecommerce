@@ -1,7 +1,7 @@
 <h1>Desafio #1: Ecommerce 💻</h1>
 
 
-<img src="frontend/src/img/img1-index.PNG" width="500">
+<img src="src/img/img1-index.PNG" width="500">
 
 
 ## Sobre
@@ -34,35 +34,7 @@
 
 ## :checkered_flag: Executando
 
-```bash
 
-#  Clone este projeto
-<<<<<<< HEAD
-$ git clone https://github.com/thaysouza/FSGames
-
-# Entre nas pasta frontend
-=======
-$ git clone https://github.com/thaysouza/HC-ecommerce
-
-# Entre nas pastas frontend e backend
->>>>>>> 910b6881aaec650731c540f6851d65ef95c2ca14
-$ cd frontend
-$ Execute o comando 'code .' e o projeto sera aberto no Visual Studio Code
-
-# Instale as dependências
-$ npm i
-
-# Inicialize
-$ npm start
-
-# Uma página será aberta em http://localhost:3000
-
-<<<<<<< HEAD
-=======
-#### depois faça o mesmo para a pasta backend ###
->>>>>>> 910b6881aaec650731c540f6851d65ef95c2ca14
-
-```
 
 
 
