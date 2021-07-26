@@ -35,6 +35,24 @@
 ## :checkered_flag: Executando
 
 
+#  Clone este projeto
+$ git clone https://github.com/thaysouza/HC-ecommerce
+
+$ Execute o comando 'code .' e o projeto sera aberto no Visual Studio Code
+
+# Instale as dependências
+$ npm i
+
+# Inicialize
+$ npm start
+
+# Uma página será aberta em http://localhost:3000
+
+
+```
+
+
+
 
 
 
