@@ -1,0 +1,104 @@
+.area-contato {
+    margin-top: -5vh;
+    height: 70vh;
+    background: url(../img/fundo2.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.featured--vertical {
+    background: linear-gradient( to top, rgba(17, 17, 17, 0.904) 10%, transparent 90%);
+    width: 100%;
+    height: 100%;
+}
+
+.featured--horizontal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient( to right, rgba(17, 17, 17, 0.849) 100%, transparent 0%);
+    width: 100%;
+    height: 100%;
+}
+
+.area-contato .area-rede {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 40vh;
+}
+
+.area-contato .area-rede h1 {
+    font-size: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 70px;
+    height: 70px;
+    background-color: rgba(85, 81, 81, 0.459);
+    border-radius: 100%;
+    transform: scale(0.9);
+    margin-left: 12px;
+    transition: all ease 0.2s;
+    box-shadow: 5px 2px 2px rgba(0, 0, 0, 0.308);
+    cursor: pointer;
+}
+
+.area-contato .area-rede h1:hover {
+    transform: scale(1);
+}
+
+.area-contato .area-rede h3 {
+    margin-top: 3vh;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Rock Salt', cursive;
+    color: white;
+}
+
+.container-flex-contato {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70vw;
+    margin: 0 auto;
+}
+
+.container-flex-contato>div {
+    flex: 1 1 6vw;
+    margin: 5px 10px;
+}
+
+@media (max-width: 575.98px) {
+    .area-contato {
+        height: 50vh;
+    }
+    .area-contato .area-rede h1 {
+        font-size: 20px;
+        width: 50px;
+        height: 50px;
+        margin-left: 0;
+    }
+    .area-contato .area-rede h3 {
+        font-size: 10px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 992px) {
+    .area-contato {
+        height: 60vh;
+    }
+    .area-contato .area-rede h1 {
+        font-size: 25px;
+        width: 60px;
+        height: 60px;
+        margin-left: 0;
+    }
+    .area-contato .area-rede h3 {
+        font-size: 15px;
+    }
+}

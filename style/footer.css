@@ -1,0 +1,104 @@
+.area-footer {
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+    padding: 5vh 0 5vh 0;
+}
+
+.mapa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.mapa img{
+    width: 300px;
+    border: 1px solid #ffc107;
+}
+
+.dados {
+    font-family: Arial, Helvetica;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    text-align: left;
+}
+
+.dados p {
+    padding: 20px;
+    font-size: 20px;
+}
+
+.dados p::before {
+    content: '';
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    margin-right: 10px;
+    background: #ffc107;
+}
+
+.copy {
+    background-color: #3A3535;
+    text-align: center;
+}
+
+.copy p {
+    padding: 20px;
+    color: white;
+}
+
+.meu-nome-footer {
+    color: #ffc107;
+}
+
+
+@media (max-width: 575.98px) {
+    
+    
+    .mapa img{
+        width: 150px;
+    }
+    
+    .dados p {
+        font-size: 12px;
+    }
+    
+    .dados p::before {
+        width: 6px;
+        height: 6px;
+        border-radius: 3px;
+        margin-right: 5px;
+    
+    }
+    
+    .copy p {
+       font-size: 10px;
+    }
+
+}
+
+@media (min-width: 576px) and (max-width: 992px) {
+    .mapa img{
+        width: 200px;
+    }
+    
+    .dados p {
+        font-size: 18px;
+    }
+    
+    .dados p::before {
+        width: 8px;
+        height: 8px;
+        border-radius: 4px;
+        margin-right: 8px;
+    
+    }
+    
+    .copy p {
+       font-size: 12px;
+    }
+}

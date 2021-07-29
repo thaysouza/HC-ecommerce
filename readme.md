@@ -1,7 +1,7 @@
 <h1>Desafio #1: Ecommerce 💻</h1>
 
 
-<img src="src/img/img1-index.PNG" width="500">
+<img src="img/img1-index.PNG" width="500">
 
 
 ## Sobre
@@ -24,34 +24,7 @@
 * Visual Studio Code<br>
 * Html<br>
 * CSS<br>
-* React<br>
 * JavaScript
-
-
-## :white_check_mark: Requisitos
-
-<p>Antes de executar :checkered_flag:, você precisar ter o <a href="https://git-scm.com">[Git]</a> e o <a href="https://nodejs.org/pt-br/download/">[Node]</a> instalados.</p>
-
-## :checkered_flag: Executando
-
-
-#  Clone este projeto
-$ git clone https://github.com/thaysouza/HC-ecommerce
-
-$ Execute o comando 'code .' e o projeto sera aberto no Visual Studio Code
-
-# Instale as dependências
-$ npm i
-
-# Inicialize
-$ npm start
-
-# Uma página será aberta em http://localhost:3000
-
-
-```
-
-
 
 
 

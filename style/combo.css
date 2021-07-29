@@ -27,21 +27,21 @@
     filter: brightness(1.2);
 }
 
-.flex img {
+.container-flex img {
     width: 180px;
     display: block;
     border-radius: 100%;
     margin-bottom: 20px;
 }
 
-.flex {
+.container-flex {
     display: flex;
     flex-wrap: wrap;
     width: 80vw;
     margin: 0 auto;
 }
 
-.flex>div {
+.container-flex>div {
     flex: 1 1 250px;
     margin: 20px 30px;
 }

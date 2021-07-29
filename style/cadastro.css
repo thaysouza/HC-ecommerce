@@ -1,0 +1,100 @@
+.area-cadastro {
+    height: auto;
+    text-align: center;
+}
+
+.area-cadastro .title-cadastro {
+    font-size: 40px;
+    text-align: center;
+    padding-top: 10vh;
+    font-family: 'Rock Salt', cursive;
+}
+
+.area-cadastro .content {
+    padding: 2% 0 8% 0;
+}
+
+.area-cadastro .content h1 {
+    margin: 15px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.area-cadastro .content input {
+    width: 30vw;
+    border: 2px solid #ffc107;
+    padding: 13px 15px;
+    font-size: 18px;
+}
+
+.area-cadastro .content .button-form {
+    width: 15vw;
+    height: 8vh;
+    background-color: #ffc107;
+    color: white;
+    transition: all .40s ease;
+    border: 2px solid white;
+    cursor: pointer;
+    margin-top: 5vh;
+}
+
+.area-cadastro .content .button-form:hover {
+    color: #ffc107;
+    background: white;
+    border: 2px solid #ffc107;
+}
+
+
+
+@media (max-width: 575.98px) {
+
+    .area-cadastro .title-cadastro {
+        font-size: 25px;
+    }
+    
+    
+    .area-cadastro .content h1 {
+        font-size: 15px;
+        margin: 10px;
+    }
+    
+    .area-cadastro .content input {
+        width: 60vw;
+        padding: 10px 12px;
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    
+    .area-cadastro .content .button-form {
+        width: 25vw;
+        height: 8vh;
+    }
+    
+}
+
+
+
+@media (min-width: 576px) and (max-width: 992px) {
+
+    .area-cadastro .title-cadastro {
+        font-size: 30px;
+    }
+    
+    
+    .area-cadastro .content h1 {
+        font-size: 18px;
+        margin: 10px;
+    }
+    
+    .area-cadastro .content input {
+        width: 50vw;
+        padding: 13px 12px;
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    
+    .area-cadastro .content .button-form {
+        width: 20vw;
+    }
+}
+

@@ -1,0 +1,172 @@
+.area-index {
+    height: 100vh;
+    background-color: #3A3535;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+}
+
+.area-index .info-index {
+    margin-left: 5vw;
+    height: 90vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.area-index .info-index h3 {
+    font-size: 100px;
+    font-weight: 600;
+}
+
+.area-index .info-index .text-free {
+    margin-top: 5vh;
+    color: #ffc107;
+}
+
+.area-index .info-index .text-burger {
+    color: white;
+}
+
+.area-index .info-index .info-email {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    margin: 20px;
+}
+
+.area-index .info-index input, button {
+    padding: 10px 13px;
+    font-size: 15px;
+}
+
+.area-index .info-index button {
+    margin-left: -6px;
+    border: 1px solid #ffc107;
+    background-color: #3A3535;
+    cursor: pointer;
+    color: #ffc107;
+    transition: all .40s ease;
+    font-weight: bold;
+}
+
+.area-index .info-index button:hover {
+    background-color: #ffc107;
+    color: #3A3535;
+}
+
+input:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+
+.back-info {
+    height: 20vh;
+    font-size: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.area-index .area-img-burguer {
+    background: url(../img/dois-um.png) no-repeat;
+    background-position: top center;
+    text-align: center;
+}
+
+.img-fluid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-burguer {
+    transform: rotate(-8deg);
+    width: 500px;
+    margin-top: 80px;
+    margin-left: 70px;
+}
+
+.sombra {
+    margin-top: -60px;
+    margin-left: 100px;
+}
+
+
+
+
+
+
+@media (max-width: 575.98px) {
+    
+.area-index .info-index h3 {
+    font-size: 80px;
+}
+    
+.area-index .info-index .info-email {
+    font-size: 15px;
+}
+    
+.area-index .info-index input, button {
+    padding: 10px 12px;
+    font-size: 15px;
+}
+    
+    
+.back-info {
+    height: 20vh;
+    font-size: 8px;
+}
+
+.area-index {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0 auto;
+    grid-gap: 20px;
+}
+.area-index .info-index {
+    width: 90vw;
+}
+
+.area-img-burguer {
+     display: none;
+}
+ 
+}
+
+
+
+@media (min-width: 576px) and (max-width: 1200px) {
+
+.area-index .info-index h3 {
+    font-size: 90px;
+}
+    
+.area-index .info-index .info-email {
+    font-size: 18px;
+}
+    
+.area-index .info-index input, button {
+    padding: 12px 14px;
+    font-size: 18px;
+}
+    
+ 
+.area-index {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0 auto;
+    grid-gap: 20px;
+}
+.area-index .info-index {
+    width: 90vw;
+}
+
+.area-img-burguer {
+     display: none;
+ }
+}
+
