@@ -30,15 +30,32 @@
 }
 
 .area-index .info-index .info-email {
-    font-size: 18px;
-    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
     color: white;
     margin: 20px;
+    height: 10vh;
+}
+
+.area-index .info-index .info-email::after {
+    content: '|';
+    margin-left: 5px;
+    opacity: 1;
+    animation: piscar .7s infinite;
+}
+
+@keyframes piscar {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
 }
 
 .area-index .info-index input, button {
-    padding: 10px 13px;
-    font-size: 15px;
+    padding: .8vw;
+    font-size: 18px;
 }
 
 .area-index .info-index button {
@@ -63,7 +80,7 @@ input:focus {
 }
 
 .back-info {
-    height: 20vh;
+    height: 15vh;
     font-size: 10px;
     color: white;
     display: flex;
@@ -95,78 +112,57 @@ input:focus {
     margin-left: 100px;
 }
 
-
-
-
-
-
 @media (max-width: 575.98px) {
-    
-.area-index .info-index h3 {
-    font-size: 80px;
+    .area-index .info-index h3 {
+        font-size: 80px;
+    }
+    .area-index .info-index .info-email {
+        width: 70vw;
+        font-size: 20px;
+    }
+    .area-index .info-index input, button {
+        padding: 10px 12px;
+        font-size: 15px;
+    }
+    .back-info {
+        height: 20vh;
+        font-size: 8px;
+    }
+    .area-index {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 0 auto;
+        grid-gap: 20px;
+    }
+    .area-index .info-index {
+        width: 90vw;
+    }
+    .area-img-burguer {
+        display: none;
+    }
 }
-    
-.area-index .info-index .info-email {
-    font-size: 15px;
-}
-    
-.area-index .info-index input, button {
-    padding: 10px 12px;
-    font-size: 15px;
-}
-    
-    
-.back-info {
-    height: 20vh;
-    font-size: 8px;
-}
-
-.area-index {
-    display: grid;
-    grid-template-columns: 1fr;
-    margin: 0 auto;
-    grid-gap: 20px;
-}
-.area-index .info-index {
-    width: 90vw;
-}
-
-.area-img-burguer {
-     display: none;
-}
- 
-}
-
-
 
 @media (min-width: 576px) and (max-width: 1200px) {
-
-.area-index .info-index h3 {
-    font-size: 90px;
+    .area-index .info-index h3 {
+        font-size: 90px;
+    }
+    .area-index .info-index .info-email {
+        font-size: 22px;
+        height: auto;
+    }
+    .area-index .info-index input, button {
+        padding: 12px 14px;
+    }
+    .area-index {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 0 auto;
+        grid-gap: 20px;
+    }
+    .area-index .info-index {
+        width: 90vw;
+    }
+    .area-img-burguer {
+        display: none;
+    }
 }
-    
-.area-index .info-index .info-email {
-    font-size: 18px;
-}
-    
-.area-index .info-index input, button {
-    padding: 12px 14px;
-    font-size: 18px;
-}
-    
- 
-.area-index {
-    display: grid;
-    grid-template-columns: 1fr;
-    margin: 0 auto;
-    grid-gap: 20px;
-}
-.area-index .info-index {
-    width: 90vw;
-}
-
-.area-img-burguer {
-     display: none;
- }
-}
-

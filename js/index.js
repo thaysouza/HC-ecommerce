@@ -17,9 +17,9 @@ form.addEventListener('submit', (event) => {
 
     let content = document.getElementById('content')
 
-    let carregando = `<p>carregando...<p>`
+    let carregando = `<p style="margin-top: 50px; font-size: 20px; color: #ffc107;">Carregando...<p>`
 
-    let pronto = `<p>pedido enviado com sucesso!<p>`
+    let pronto = `<p style="margin-top: 50px; font-size: 20px; color: #ffc107;">Pedido Enviada com Sucesso!<p>`
 
     content.innerHTML = carregando
 
