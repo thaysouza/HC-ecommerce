@@ -22,6 +22,8 @@
     <link rel="stylesheet" href="style/cadastro.css">
     <link rel="stylesheet" href="style/footer.css">
 
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+
 
 </head>
 
@@ -37,26 +39,26 @@
         </div>
 
 
-        <nav id="nav">
+        <nav id="nav" class="scroll-menu">
             <button id="btn-mobile" area-label="Abrir Menu" aria-haspopup="true" aria-controls="menu"
                 area-expanded="false">
                 <span id="hamburger-button"></span>
             </button>
             <ul id="menu" role="menu">
                 <li>
-                    <a class="link-menu" href="">Home</a>
+                    <a class="link-menu" href="#home">Home</a>
                 </li>
                 <li>
-                    <a class="link-menu" href="">Combos</a>
+                    <a class="link-menu" href="#combos">Combos</a>
                 </li>
                 <li>
-                    <a class="link-menu" href="">Restaurantes</a>
+                    <a class="link-menu" href="#restaurantes">Restaurantes</a>
                 </li>
                 <li>
-                    <a class="link-menu" href="">Contato</a>
+                    <a class="link-menu" href="#contato">Contato</a>
                 </li>
                 <li>
-                    <a class="link-menu link-button" href="">Cadastro</a>
+                    <a class="link-menu link-button" href="#cadastro">Cadastro</a>
                 </li>
             </ul>
         </nav>
@@ -69,7 +71,7 @@
     <!---------------------------------------------------------------->
 
 
-    <section class="area-index">
+    <section class="area-index" id="home">
 
         <div class="info-index">
             <div>
@@ -101,27 +103,25 @@
 
         <div class="area-img-burguer">
             <div class="img-fluid">
-                <div>
+                <div data-aos="fade-up">
                     <img class="img-burguer" src="img/burguer-home.png" alt="imagem de um Hamburguer" />
                     <img class="sombra" src="img/sombra.png" alt="Sombra da imagem" />
                 </div>
             </div>
-
         </div>
-
     </section>
 
 
 
     <!---------------------------------------------------------------->
 
-    <section class="area-principal-combos">
+    <section class="area-principal-combos" id="combos">
         <h1 class="classH1">Combos Especiais</h1>
 
         <div class="container-flex">
 
 
-            <div id="area" class="area">
+            <div id="area" class="area" data-aos="fade-right">
                 <div>
                     <img src="img/combo1.png" alt="Combo" />
                     <p class="text-combo">Box burguer</p>
@@ -130,7 +130,7 @@
                 </div>
             </div>
 
-            <div id="area" class="area">
+            <div id="area" class="area" data-aos="fade-right">
                 <div>
                     <img src="img/combo1.png" alt="Combo" />
                     <p class="text-combo">Box burguer</p>
@@ -139,18 +139,7 @@
                 </div>
             </div>
 
-            <div id="area" class="area">
-                <div>
-                    <img src="img/combo1.png" alt="Combo" />
-                    <p class="text-combo">Box burguer</p>
-                    <p class="text-value"><s>159,99</s></p>
-                    <h2>109,99</h2>
-                </div>
-            </div>
-
-
-
-            <div id="area" class="area">
+            <div id="area" class="area" data-aos="fade-right">
                 <div>
                     <img src="img/combo1.png" alt="Combo" />
                     <p class="text-combo">Box burguer</p>
@@ -161,7 +150,7 @@
 
 
 
-            <div id="area" class="area">
+            <div id="area" class="area" data-aos="fade-left">
                 <div>
                     <img src="img/combo1.png" alt="Combo" />
                     <p class="text-combo">Box burguer</p>
@@ -171,7 +160,18 @@
             </div>
 
 
-            <div id="area" class="area">
+
+            <div id="area" class="area" data-aos="fade-left">
+                <div>
+                    <img src="img/combo1.png" alt="Combo" />
+                    <p class="text-combo">Box burguer</p>
+                    <p class="text-value"><s>159,99</s></p>
+                    <h2>109,99</h2>
+                </div>
+            </div>
+
+
+            <div id="area" class="area" data-aos="fade-left">
                 <div>
                     <img src="img/combo1.png" alt="Combo" />
                     <p class="text-combo">Box burguer</p>
@@ -189,7 +189,7 @@
 
     <!---------------------------------------------------------------->
 
-    <section class="area-contato">
+    <section class="area-contato" id="contato">
         <div class="featured--vertical">
             <div class="featured--horizontal">
 
@@ -229,7 +229,7 @@
 
     <!---------------------------------------------------------------->
 
-    <section class="area-cadastro">
+    <section class="area-cadastro" id="cadastro" data-aos="fade-up">
 
         <h1 class="title-cadastro">Cadastro de Usuário</h1>
 
@@ -285,8 +285,14 @@
         </p>
     </div>
 
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <script>
+        AOS.init({ duration: 800 });
+    </script>
 
 
+    <script src="js/scroll.js"></script>
 </body>
 
 </html>
