@@ -24,8 +24,8 @@
 * CSS<br>
 * JavaScript
 
-
-
+## Site
+<a href="http://chocoburgerhc.netlify.app/" target="_blank">Link do Site</a> </br> </br>
 
 
  <a href="https://www.linkedin.com/in/tayane-souza/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
