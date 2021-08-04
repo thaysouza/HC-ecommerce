@@ -5,12 +5,15 @@
 
 #header {
     box-sizing: border-box;
-    height: 100px;
+    height: 70px;
+    width: 100vw;
     padding: 0 7vw 0 7vw;
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color: #3A3535;
+    position: fixed;
+    z-index: 999;
 }
 
 #header .area-logo-nav {
@@ -71,7 +74,6 @@
         display: block;
         position: absolute;
         width: 100%;
-        top: 70px;
         right: 0px;
         background: #3a3535e8;
         height: 0px;
@@ -81,12 +83,12 @@
         overflow-y: hidden;
     }
     #nav.active #menu {
-        height: calc(60vh - 70px);
+        height: calc(70vh - 70px);
         visibility: visible;
         overflow-y: auto;
     }
     #menu .link-menu {
-        padding: 1rem 0;
+        padding: 1.5rem 0;
         margin: 0 1rem;
         border-bottom: 2px solid rgba(0, 0, 0, .05);
     }
@@ -130,5 +132,23 @@
     }
     #menu .link-button:hover {
         background-color: transparent;
+    }
+}
+
+@media (max-width: 575.98px) {
+    #header .area-logo-nav {
+        font-size: 15px;
+    }
+    #header .area-logo-nav img {
+        width: 30px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 992px) {
+    #header .area-logo-nav {
+        font-size: 18px;
+    }
+    #header .area-logo-nav img {
+        width: 35px;
     }
 }

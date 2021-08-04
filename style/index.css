@@ -1,5 +1,6 @@
 .area-index {
-    height: 90vh;
+    padding-top: 12vh;
+    height: 100vh;
     background-color: #3A3535;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -147,6 +148,9 @@ input:focus {
 }
 
 @media (max-width: 575.98px) {
+    .area-index {
+        padding-top: 10vh;
+    }
     .area-index .info-index h3 {
         font-size: 80px;
     }
@@ -176,6 +180,9 @@ input:focus {
 }
 
 @media (min-width: 576px) and (max-width: 1200px) {
+    .area-index {
+        padding-top: 10vh;
+    }
     .area-index .info-index h3 {
         font-size: 90px;
     }
