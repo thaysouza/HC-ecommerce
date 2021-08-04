@@ -6,16 +6,65 @@
     padding: 5vh 0 5vh 0;
 }
 
-.mapa {
+.loja {
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 20px;
 }
 
-.mapa img{
+.loja .contant-loja {
+    height: 400px;
     width: 300px;
-    border: 1px solid #ffc107;
+}
+
+.container-carrossel {
+    width: 100%;
+    height: 100%;
+}
+
+.wall {
+    display: none;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.posicionar {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.wall-1 {
+    background-image: url('../img/ambiente.jpg');
+}
+
+.wall-2 {
+    background-image: url('../img/ambiente2.jpg');
+}
+
+.wall-3 {
+    background-image: url('../img/ambiente3.jpg');
+}
+
+.wall a {
+    font-size: 50px;
+    color: #ffc107;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.wall a:hover {
+    color: #ffc107b9;
+}
+
+.wall:target {
+    display: block;
 }
 
 .dados {
@@ -55,50 +104,48 @@
     color: #ffc107;
 }
 
-
 @media (max-width: 575.98px) {
-    
-    
-    .mapa img{
-        width: 150px;
+    .loja .contant-loja {
+        height: 300px;
+        width: 200px;
     }
-    
     .dados p {
-        font-size: 12px;
+        font-size: 10px;
+        padding: 10px;
     }
-    
     .dados p::before {
         width: 6px;
         height: 6px;
         border-radius: 3px;
         margin-right: 5px;
-    
     }
-    
     .copy p {
-       font-size: 10px;
+        font-size: 10px;
     }
-
+    .wall a {
+        font-size: 30px;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 992px) {
-    .mapa img{
-        width: 200px;
+    .loja .contant-loja {
+        height: 350px;
+        width: 250px;
     }
-    
     .dados p {
-        font-size: 18px;
+        font-size: 12px;
+        padding: 15px;
     }
-    
     .dados p::before {
         width: 8px;
         height: 8px;
         border-radius: 4px;
         margin-right: 8px;
-    
     }
-    
     .copy p {
-       font-size: 12px;
+        font-size: 12px;
+    }
+    .wall a {
+        font-size: 40px;
     }
 }

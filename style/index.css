@@ -1,9 +1,14 @@
 .area-index {
-    height: 100vh;
+    height: 90vh;
     background-color: #3A3535;
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin: 0 auto;
+}
+
+.area.ativo {
+    background-color: #3A3535;
+    cursor: pointer;
 }
 
 .area-index .info-index {
@@ -31,7 +36,8 @@
 
 .area-index .info-index .info-email {
     font-family: 'Courier New', Courier, monospace;
-    font-size: 25px;
+    width: 25vw;
+    font-size: 20px;
     color: white;
     margin: 20px;
     height: 10vh;
@@ -54,18 +60,18 @@
 }
 
 .area-index .info-index input, button {
-    padding: .8vw;
+    padding: .9vw;
     font-size: 18px;
 }
 
 .area-index .info-index button {
     margin-left: -6px;
     border: 1px solid #ffc107;
-    background-color: #3A3535;
     cursor: pointer;
     color: #ffc107;
     transition: all .40s ease;
     font-weight: bold;
+    background-color: #3A3535;
 }
 
 .area-index .info-index button:hover {
@@ -79,13 +85,41 @@ input:focus {
     outline: 0;
 }
 
+.campo-msg {
+    margin: 10px;
+    height: 6vh;
+}
+
+.info_validacao {
+    padding: 10px;
+    height: 6vh;
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+    animation: hide 2s 2s forwards;
+    display: none;
+}
+
+@keyframes hide {
+    from {
+        opacity: 1
+    }
+    to {
+        opacity: 0
+    }
+}
+
+.info_validacao.ativo {
+    display: block;
+}
+
 .back-info {
-    height: 15vh;
+    height: 8vh;
     font-size: 10px;
     color: white;
     display: flex;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
 }
 
 .area-index .area-img-burguer {
@@ -125,7 +159,6 @@ input:focus {
         font-size: 15px;
     }
     .back-info {
-        height: 20vh;
         font-size: 8px;
     }
     .area-index {
@@ -147,6 +180,7 @@ input:focus {
         font-size: 90px;
     }
     .area-index .info-index .info-email {
+        width: auto;
         font-size: 22px;
         height: auto;
     }
