@@ -1,21 +1,19 @@
-<h1>Desafio #1: Ecommerce 💻</h1>
+<h1>Desafio #1 e #2: Ecommerce 💻</h1>
 
 
-<img src="img/img1-index.PNG" width="500">
+<img src="img/ChocoBurger.gif" width="500">
 
 
 ## Sobre
 
 > Este projeto foi desenvolvido para concluir o desafio do **Hiring Coders**, com o objetivo de criar uma landing page de um e-commerce.
 
-### Projeto em andamento 🚀👩‍💻
-
 ## Entregáveis
 
 * Template do site oficial <br>
 * Landing page de promoções, estilo black friday; <br>
 * Cadastre seu e-mail para receber promoções <br>
-* Dados no localstorage
+* Dados de cadastro no localstorage
 
 ## Recursos e Ferramentas 
 
