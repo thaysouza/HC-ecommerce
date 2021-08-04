@@ -83,16 +83,22 @@
 
 @media (max-width: 575.98px) {
     .area-contato {
-        height: 50vh;
+        height: 40vh;
+    }
+    .area-contato .area-rede {
+        height: 40vh;
+        width: 20vw;
     }
     .area-contato .area-rede h1 {
-        font-size: 20px;
-        width: 50px;
-        height: 50px;
-        margin-left: 0;
+        font-size: 15px;
+        width: 40px;
+        height: 40px;
+    }
+    .container-flex-contato {
+        width: 70vw;
     }
     .area-contato .area-rede h3 {
-        font-size: 10px;
+        display: none;
     }
 }
 

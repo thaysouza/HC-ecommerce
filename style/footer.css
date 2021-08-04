@@ -67,6 +67,30 @@
     display: block;
 }
 
+.seta-esquerda:before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-right: 15px solid #ffc107;
+}
+
+.seta-direita:before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 15px solid #ffc107;
+}
+
 .dados {
     font-family: Arial, Helvetica;
     display: flex;
@@ -110,7 +134,7 @@
         width: 200px;
     }
     .dados p {
-        font-size: 10px;
+        font-size: 8px;
         padding: 10px;
     }
     .dados p::before {
@@ -121,9 +145,6 @@
     }
     .copy p {
         font-size: 10px;
-    }
-    .wall a {
-        font-size: 30px;
     }
 }
 
@@ -144,8 +165,5 @@
     }
     .copy p {
         font-size: 12px;
-    }
-    .wall a {
-        font-size: 40px;
     }
 }
